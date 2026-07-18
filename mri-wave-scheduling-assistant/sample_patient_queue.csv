@@ -1,0 +1,11 @@
+patient_id,protocol,scanner_eligibility,estimated_duration,arrival_status,readiness_status,contrast_required,sedation_required,acuity,transport_complexity,risk_of_delay
+P1001,Brain w/wo,1.5T,45,Late,Not Ready,Yes,No,Medium,Walk-in,High
+P1002,Knee w/o,Either,30,On Time,Ready,No,No,Low,Walk-in,Low
+P1003,Abdomen w/,3T,60,Early,Ready,Yes,No,High,Wheelchair,Low
+P1004,Spine w/wo,Either,45,On Time,Ready,Yes,No,Medium,Stretcher,Medium
+P1005,Pelvis w/,1.5T,60,Late,Not Ready,Yes,Yes,High,Bed,High
+P1006,Shoulder w/o,Either,30,Early,Ready,No,No,Low,Walk-in,Low
+P1007,Cardiac,3T,90,On Time,Not Ready,Yes,No,High,Wheelchair,Medium
+P1008,Foot w/o,1.5T,30,Early,Ready,No,No,Low,Walk-in,Low
+P1009,MRA Neck,Either,45,On Time,Ready,Yes,No,Medium,Walk-in,Low
+P1010,Brain w/wo,3T,60,No-Show,Not Ready,Yes,No,Medium,Walk-in,High
