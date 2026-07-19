@@ -6,7 +6,7 @@ import datetime
 # --- CONFIGURATION ---
 st.set_page_config(page_title="MRI Wave Scheduling Assistant", layout="wide", initial_sidebar_state="expanded")
 
-# Resolve the directory where app.py lives (works both locally and on Streamlit Cloud)
+# Resolve the directory where app.py lives
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # --- CUSTOM CSS FOR MODERN AESTHETICS ---
@@ -14,8 +14,21 @@ st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
     html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+    
+    /* Vibrant Sidebar */
     [data-testid="stSidebar"] { background-color: #0f172a; color: #f8fafc; }
-    .stTextInput input, .stNumberInput input { color: #1e293b !important; }
+    
+    /* Sidebar labels */
+    [data-testid="stSidebar"] label, [data-testid="stSidebar"] p, 
+    [data-testid="stSidebar"] span { color: #f8fafc !important; }
+    
+    /* ALL input types in sidebar — force dark text on light background */
+    [data-testid="stSidebar"] input, [data-testid="stSidebar"] select,
+    [data-testid="stSidebar"] .stNumberInput input {
+        color: #1e293b !important;
+        background-color: #ffffff !important;
+    }
+    
     div[data-testid="stMetricValue"] { color: #3b82f6; }
     div.stButton > button {
         background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
@@ -129,7 +142,7 @@ with tab3:
 
 with tab4:
     st.header("Simulation Insights: Why Wave Scheduling?")
-    st.markdown("> 'Project Five showed that arrival-status routing alone was not enough. Policy B failed because it did not actively choose a replacement patient. This tool implements the missing step.'")
+    st.markdown("> 'Project Five showed that arrival-status routing alone was not enough. Policy B failed because it separated early/on-time/late patients but did not actively choose a replacement patient. This Streamlit prototype implements the missing step: selecting the best ready patient for the open scanner gap.'")
     st.subheader("Policy A vs Policy B Output")
     col1, col2 = st.columns(2)
     box_path = os.path.join(SCRIPT_DIR, "assets", "staytime_boxplot.png")
@@ -153,14 +166,25 @@ with tab5:
         csv_data = st.session_state.ranked_df.to_csv(index=False).encode('utf-8')
         st.download_button(label="Download Candidate Ranking (CSV)", data=csv_data, file_name="mri_candidate_ranking.csv", mime="text/csv")
         st.markdown("### Wet-Schedule Recommendation Report")
-        report_text = f"""MRI Wet-Schedule Optimizer Report
-Date: {datetime.date.today()} | Time: {current_time}
-Scanner: {open_scanner} | Available Gap: {gap_minutes} minutes
-Recommended Replacement: {best_patient['patient_id']} - {best_patient['protocol']}
+        report_text = f"""# MRI Wet-Schedule Optimizer Report
+Date: {datetime.date.today()}
+Time: {current_time}
+
+**Open Slot Details:**
+Scanner: {open_scanner}
+Available Gap: {gap_minutes} minutes
+
+**Recommended Replacement:**
+Patient ID: {best_patient['patient_id']}
+Protocol: {best_patient['protocol']}
 Duration: {best_patient['estimated_duration']} mins
-Reason: {best_patient['Why selected']}
-*Note: This is an operational suggestion for human review.*"""
-        st.text_area("Report Preview", value=report_text, height=250)
+
+**Selection Logic:**
+Score: {best_patient['Score']}
+Reasons: {best_patient['Why selected']}
+
+*Note: This is an operational suggestion for human review by the Admin Tech.*"""
+        st.text_area("Report Preview", value=report_text, height=350)
         st.download_button(label="Download Report (TXT)", data=report_text.encode('utf-8'), file_name="mri_wet_schedule_report.txt", mime="text/plain")
     else:
         st.info("Please run the Lego-Block Ranking first to generate exportable reports.")
