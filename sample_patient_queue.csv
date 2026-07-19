@@ -1,61 +1,61 @@
 patient_id,protocol,scanner_eligibility,estimated_duration,arrival_status,readiness_status,contrast_required,sedation_required,acuity,transport_complexity,risk_of_delay
-P1001,Knee w/o,1.5T,30,On Time,Ready,No,No,Low,Walk-in,Low
-P1002,Spine w/wo,1.5T,45,On Time,Ready,No,No,Low,Walk-in,Medium
-P1003,Abdomen w/,Either,30,Early,Not Ready,Yes,No,Medium,Walk-in,Medium
-P1004,Brain w/wo,Either,30,No-Show,Not Ready,Yes,No,Medium,Wheelchair,High
-P1005,Lumbar Spine,1.5T,15,On Time,Ready,No,No,Low,Wheelchair,Low
-P1006,Shoulder w/o,1.5T,30,On Time,Ready,No,No,Low,Walk-in,Low
-P1007,Foot w/o,3T,90,On Time,Ready,No,No,Low,Wheelchair,Low
-P1008,Shoulder w/o,3T,15,Late,Not Ready,No,No,Medium,Walk-in,High
-P1009,Foot w/o,1.5T,30,On Time,Ready,No,No,Low,Walk-in,Medium
-P1010,Abdomen w/,Either,15,Early,Ready,No,No,Low,Walk-in,Low
-P1011,Foot w/o,Either,90,Late,Ready,No,No,Low,Walk-in,High
-P1012,Shoulder w/o,1.5T,30,On Time,Not Ready,No,No,Low,Walk-in,High
-P1013,Pelvis w/,Either,30,Early,Ready,Yes,No,High,Stretcher,High
-P1014,Lumbar Spine,3T,15,Late,Not Ready,No,No,Medium,Walk-in,High
-P1015,Knee w/o,1.5T,30,Early,Ready,No,No,Low,Walk-in,Low
-P1016,Lumbar Spine,3T,30,On Time,Ready,Yes,No,Medium,Bed,High
-P1017,Foot w/o,Either,30,On Time,Ready,Yes,No,Low,Walk-in,High
-P1018,Brain w/wo,1.5T,60,Late,Ready,Yes,No,Low,Walk-in,High
-P1019,Lumbar Spine,Either,30,On Time,Ready,Yes,No,Low,Walk-in,High
-P1020,Brain w/wo,Either,90,Early,Ready,Yes,No,Low,Walk-in,Medium
-P1021,Cardiac,1.5T,30,Late,Ready,No,No,Medium,Walk-in,High
-P1022,MRA Neck,Either,90,Late,Not Ready,Yes,No,Low,Walk-in,High
-P1023,Brain w/wo,1.5T,15,On Time,Not Ready,No,No,Medium,Walk-in,High
-P1024,Foot w/o,1.5T,30,No-Show,Not Ready,No,No,Low,Wheelchair,Medium
-P1025,MRA Neck,Either,30,Early,Ready,No,No,Medium,Walk-in,Low
-P1026,Lumbar Spine,1.5T,30,On Time,Ready,No,No,Low,Stretcher,High
-P1027,Shoulder w/o,1.5T,30,On Time,Ready,Yes,No,Low,Walk-in,High
-P1028,Knee w/o,1.5T,30,On Time,Not Ready,No,No,Low,Walk-in,High
-P1029,Pelvis w/,Either,90,On Time,Ready,No,No,High,Walk-in,Low
-P1030,Knee w/o,Either,45,Early,Ready,Yes,No,Medium,Walk-in,Medium
-P1031,Pelvis w/,Either,45,Early,Ready,Yes,Yes,Medium,Wheelchair,High
-P1032,Pelvis w/,1.5T,30,On Time,Ready,Yes,No,Low,Walk-in,Medium
-P1033,Shoulder w/o,Either,30,Early,Ready,No,No,Medium,Wheelchair,Low
-P1034,Spine w/wo,Either,30,On Time,Not Ready,No,No,Low,Stretcher,High
-P1035,Abdomen w/,Either,45,Late,Ready,No,No,Medium,Stretcher,High
-P1036,Spine w/wo,3T,45,Early,Not Ready,No,No,Low,Wheelchair,Medium
-P1037,Spine w/wo,1.5T,45,On Time,Ready,Yes,No,Low,Walk-in,Medium
-P1038,MRA Neck,3T,15,Late,Not Ready,No,No,Low,Walk-in,High
-P1039,Shoulder w/o,Either,30,On Time,Ready,Yes,No,Medium,Walk-in,Medium
-P1040,MRA Neck,Either,60,On Time,Ready,No,No,Medium,Stretcher,High
-P1041,Knee w/o,Either,30,On Time,Ready,No,No,Low,Walk-in,Medium
-P1042,Abdomen w/,Either,30,On Time,Ready,Yes,No,Medium,Walk-in,Medium
-P1043,Foot w/o,Either,30,On Time,Not Ready,No,No,Medium,Walk-in,Medium
-P1044,Knee w/o,Either,45,On Time,Ready,Yes,Yes,Low,Walk-in,High
-P1045,Knee w/o,3T,60,On Time,Ready,Yes,No,Medium,Walk-in,High
-P1046,Knee w/o,Either,30,Late,Not Ready,No,No,Low,Stretcher,High
-P1047,Abdomen w/,Either,45,No-Show,Not Ready,No,No,Medium,Wheelchair,High
-P1048,MRA Neck,3T,60,On Time,Ready,No,No,Medium,Wheelchair,Low
-P1049,MRA Neck,3T,30,On Time,Ready,Yes,No,Low,Wheelchair,Medium
-P1050,Cardiac,Either,45,Early,Ready,No,No,Low,Walk-in,Medium
-P1051,Lumbar Spine,Either,15,Late,Not Ready,No,No,Low,Walk-in,High
-P1052,Cardiac,Either,45,On Time,Not Ready,No,No,Low,Walk-in,Medium
-P1053,Cardiac,Either,45,Late,Not Ready,No,No,Medium,Walk-in,High
-P1054,Knee w/o,Either,30,On Time,Ready,Yes,No,Medium,Walk-in,Medium
-P1055,Cardiac,3T,15,Early,Ready,No,No,Medium,Walk-in,Low
-P1056,Brain w/wo,Either,30,Early,Ready,Yes,No,Low,Walk-in,Medium
-P1057,Shoulder w/o,1.5T,45,On Time,Ready,No,No,Low,Walk-in,Low
-P1058,Cardiac,3T,45,Early,Ready,No,No,Medium,Wheelchair,Low
-P1059,Knee w/o,Either,30,Early,Ready,No,No,Low,Walk-in,Low
-P1060,Foot w/o,1.5T,90,On Time,Not Ready,No,No,High,Wheelchair,Medium
+P1001,Foot w/o,Either,30,On Time,Ready,Yes,No,Low,Walk-in,Medium
+P1002,Spine w/wo,1.5T,15,On Time,Ready,Yes,No,Medium,Walk-in,Medium
+P1003,Pelvis w/,Either,30,Early,Ready,No,No,Low,Wheelchair,Low
+P1004,MRA Neck,Either,30,On Time,Not Ready,No,No,Low,Walk-in,Medium
+P1005,Shoulder w/o,1.5T,45,Early,Ready,No,No,Low,Walk-in,Low
+P1006,Lumbar Spine,Either,45,On Time,Ready,No,No,High,Walk-in,Low
+P1007,Spine w/wo,Either,45,Late,Not Ready,Yes,No,Medium,Stretcher,High
+P1008,Lumbar Spine,Either,60,Early,Ready,No,No,Low,Walk-in,Low
+P1009,Abdomen w/,Either,30,Early,Ready,No,No,Low,Walk-in,Low
+P1010,Knee w/o,1.5T,30,Early,Ready,No,No,Low,Walk-in,Low
+P1011,Spine w/wo,Either,45,On Time,Ready,No,No,High,Walk-in,Low
+P1012,Lumbar Spine,Either,30,On Time,Not Ready,No,No,Low,Wheelchair,Medium
+P1013,MRA Neck,Either,30,Early,Ready,Yes,No,Low,Wheelchair,Medium
+P1014,Abdomen w/,Either,30,On Time,Ready,No,No,Low,Stretcher,High
+P1015,Brain w/wo,3T,30,On Time,Ready,Yes,No,Medium,Walk-in,Medium
+P1016,Spine w/wo,Either,30,Early,Ready,Yes,No,Medium,Walk-in,Medium
+P1017,Pelvis w/,Either,15,On Time,Ready,No,No,Medium,Walk-in,Low
+P1018,Knee w/o,Either,45,Early,Ready,Yes,No,High,Wheelchair,Medium
+P1019,Cardiac,Either,30,Late,Ready,Yes,No,Medium,Walk-in,High
+P1020,Spine w/wo,Either,30,Early,Ready,Yes,No,Low,Walk-in,Medium
+P1021,Shoulder w/o,Either,30,Late,Not Ready,No,No,Low,Walk-in,High
+P1022,Pelvis w/,Either,30,Early,Ready,Yes,No,Low,Walk-in,Medium
+P1023,Brain w/wo,Either,15,On Time,Ready,Yes,No,High,Walk-in,Medium
+P1024,MRA Neck,Either,30,On Time,Ready,Yes,No,High,Walk-in,Medium
+P1025,Shoulder w/o,Either,30,Early,Ready,No,No,Low,Walk-in,Low
+P1026,Knee w/o,1.5T,30,On Time,Ready,No,No,High,Walk-in,Low
+P1027,Foot w/o,Either,30,Early,Ready,No,No,Medium,Wheelchair,Low
+P1028,Spine w/wo,Either,15,On Time,Ready,No,No,Low,Walk-in,Low
+P1029,Cardiac,1.5T,15,Early,Ready,No,No,High,Walk-in,Low
+P1030,Abdomen w/,Either,30,On Time,Ready,No,No,Low,Walk-in,Low
+P1031,Spine w/wo,Either,45,Late,Not Ready,No,No,Low,Walk-in,High
+P1032,Knee w/o,Either,60,Late,Not Ready,Yes,No,Low,Wheelchair,High
+P1033,Brain w/wo,Either,60,Early,Ready,Yes,No,Low,Stretcher,High
+P1034,MRA Neck,Either,30,Early,Ready,Yes,No,High,Walk-in,Medium
+P1035,Foot w/o,1.5T,45,On Time,Ready,Yes,No,High,Walk-in,Medium
+P1036,Lumbar Spine,Either,30,On Time,Not Ready,No,No,Low,Walk-in,Medium
+P1037,Shoulder w/o,Either,30,On Time,Ready,No,No,Low,Walk-in,Low
+P1038,Cardiac,Either,60,On Time,Ready,Yes,No,Medium,Walk-in,Medium
+P1039,Spine w/wo,Either,30,On Time,Ready,Yes,No,Low,Walk-in,Medium
+P1040,Shoulder w/o,Either,30,On Time,Ready,No,No,Low,Walk-in,Low
+P1041,Shoulder w/o,Either,15,Early,Ready,No,No,High,Walk-in,Low
+P1042,Foot w/o,Either,30,No-Show,Not Ready,Yes,No,Low,Walk-in,Medium
+P1043,Lumbar Spine,Either,45,On Time,Ready,Yes,No,High,Walk-in,Medium
+P1044,MRA Neck,1.5T,30,Early,Not Ready,Yes,No,Low,Walk-in,Medium
+P1045,Abdomen w/,Either,30,On Time,Ready,Yes,No,High,Walk-in,Medium
+P1046,Knee w/o,Either,15,Early,Ready,No,No,Medium,Walk-in,Low
+P1047,Lumbar Spine,Either,30,On Time,Ready,Yes,No,Low,Walk-in,Medium
+P1048,Brain w/wo,Either,30,On Time,Ready,Yes,No,Low,Walk-in,Medium
+P1049,Pelvis w/,Either,60,Late,Not Ready,No,No,High,Walk-in,High
+P1050,Lumbar Spine,Either,30,On Time,Ready,No,No,Medium,Walk-in,Low
+P1051,Spine w/wo,Either,30,Late,Not Ready,No,No,Medium,Walk-in,High
+P1052,Foot w/o,Either,30,On Time,Ready,Yes,No,High,Walk-in,Medium
+P1053,Abdomen w/,1.5T,45,On Time,Ready,No,No,Low,Walk-in,Low
+P1054,Brain w/wo,Either,30,Early,Ready,No,No,Medium,Walk-in,Low
+P1055,Pelvis w/,Either,30,Early,Ready,No,No,Low,Wheelchair,Low
+P1056,Foot w/o,Either,30,Early,Ready,No,No,Medium,Walk-in,Low
+P1057,Abdomen w/,Either,45,Early,Ready,No,No,Medium,Walk-in,Low
+P1058,Brain w/wo,Either,30,Early,Ready,No,No,Medium,Walk-in,Low
+P1059,Brain w/wo,Either,30,Early,Ready,No,No,Low,Wheelchair,Low
+P1060,Abdomen w/,Either,30,On Time,Ready,Yes,No,Low,Walk-in,Medium
