@@ -457,14 +457,11 @@ with tab3:
 with tab4:
     st.header("Simulation Insights: Why Wave Scheduling?")
 
-    st.markdown(
-        """
-        > Project Five showed that arrival-status routing alone was not enough.
-        > Policy B separated early, on-time, and late patients but did not
-        > actively choose the best ready replacement patient. This Streamlit
-        > prototype demonstrates that missing decision-support step.
-        """
-    )
+            st.markdown(
+            """
+            > "Our operational simulations reveal that simply categorizing patients by arrival status is not enough to prevent scanner idling. Without an active gap-filling strategy, patients end up waiting in the lobby while scanners sit empty. This decision-support tool provides the missing link: it instantly analyzes the current queue and recommends the best ready patient to pull forward, ensuring maximum scanner utilization and minimized patient wait times."
+            """
+        )
 
     st.subheader("Policy A versus Policy B Output")
 
