@@ -457,7 +457,7 @@ with tab3:
 with tab4:
     st.header("Simulation Insights: Why Wave Scheduling?")
 
-               st.markdown(
+                  st.markdown(
         """
         > "Our operational simulations reveal that simply categorizing patients by arrival status is not enough to prevent scanner idling. Without an active gap-filling strategy, patients end up waiting in the lobby while scanners sit empty. This decision-support tool provides the missing link: it instantly analyzes the current queue and recommends the best ready patient to pull forward, ensuring maximum scanner utilization and minimized patient wait times."
         """
